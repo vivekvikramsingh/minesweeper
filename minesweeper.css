@@ -1,0 +1,69 @@
+
+.matrix,.matrix_2
+{
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    margin:300px;
+    margin-top: 14%;
+    border-spacing: 0;
+}
+
+.matrix .cell
+{
+    width:38px;
+    height:38px;
+    background: #33cc33;
+    text-align: center;
+}
+
+.matrix_2 .cell
+{
+    width:38px;
+    height:38px;
+    border:1px solid black;
+    background: #33cc33;
+    text-align: center;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+li{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+.overlay {
+    background-color:#EFEFEF;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    opacity: .5; /* in FireFox */ 
+    filter: alpha(opacity=50); /* in IE */
+}
+
+.overlay2 {
+    background-color:rgb(65, 170, 65);
+    position: fixed;
+    width: 100%;
+    height: 20%;
+    z-index: 1000;
+    top: 275px;
+    left: 0px; 
+    filter: alpha(opacity=50);
+}
