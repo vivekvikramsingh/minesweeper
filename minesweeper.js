@@ -28,7 +28,6 @@ var table = document.getElementById("table1").rows;
 var y;
 for(var i = 0; i < 15; i++)
 {   
-    // planting bomb using random index whic is created in line 23
     table[row_[i]].cells[column_[i]].style.background = 'url(' + "bomb.png" + ')';
     // increament number around bombs
     var m=row_[i]+1
