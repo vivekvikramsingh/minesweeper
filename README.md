@@ -1,1 +1,1 @@
-# kamchalau minesweeper
+# minesweeper
